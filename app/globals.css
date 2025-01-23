@@ -3,19 +3,38 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #70E1E2; 
+  /* Light background */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0a0a0a; /* Dark mode background */
+    --foreground: #ededed; /* Dark mode text color */
   }
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+html {
+  scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: 'Cartoonist Kooky';
+  src: url("/fonts/cartoonist_kooky.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: 'Cartoonist Kooky', sans-serif; /* Add the custom font here */
+  background-size: cover; /* Stretch to cover the area */
+  color: var(--foreground); /* Use the defined foreground color */
+  font-display: swap; /* Swap to custom font once it loads */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  line-height: 1.6; /* Improve text readability */
+  min-height: 100vh; /* Ensure the body starts at full viewport height */
+}
+
+
+
+
+
