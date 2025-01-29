@@ -7,23 +7,23 @@ import Link from "next/link";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Navbar() {
-  useEffect(() => {
-    gsap.fromTo(
-      ".navbar",
-      { y: -100, opacity: 0 },
-      {
-        y: 0,
-        opacity: 1,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: ".navbar-trigger",
-          start: "top top",
-          end: "bottom top",
-          scrub: 1.5,
-        },
-      }
-    );
-  }, []);
+//   useEffect(() => {
+//     gsap.fromTo(
+//       ".navbar",
+//       { y: -100, opacity: 0 },
+//       {
+//         y: 0,
+//         opacity: 1,
+//         ease: "power2.out",
+//         scrollTrigger: {
+//           trigger: ".navbar-trigger",
+//           start: "top top",
+//           end: "bottom top",
+//           scrub: 1.5,
+//         },
+//       }
+//     );
+//   }, []);
 
   return (
     <>

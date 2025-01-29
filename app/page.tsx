@@ -10,7 +10,6 @@ import Container from "./components/Container";
 import dex from "@/assets/dex.svg";
 import right from "@/assets/right.svg";
 import Link from "next/link";
-import Navbar from "./Navbar";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
@@ -134,7 +133,6 @@ export default function Home() {
 
   return (
     <>
-    <Navbar />
       {/* First Background Image */}
       <div className="h-screen w-full bg-[url('/bg.jpg')] sticky top-0 bg-cover bg-center">
         <div className="h-[100dvh] grid grid-rows-[auto_1fr_auto] text-9xl text-white p-4 overflow-hidden bg-cover">
