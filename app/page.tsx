@@ -7,7 +7,7 @@ import icon from "@/assets/icon.svg";
 import Image from "next/image";
 import line1 from "@/assets/line.png";
 import Container from "./components/Container";
-import dex from "@/assets/DEX.svg";
+import dex from "@/assets/dex.svg";
 import right from "@/assets/right.svg";
 import Link from "next/link";
 import Navbar from "./Navbar";
