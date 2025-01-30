@@ -13,7 +13,7 @@ export default function StuffSection() {
             WE&apos;RE HARD AT WORK MAKING TOP SECRET STUFF. FOLLOW US ON X FOR CLEARANCE.
           </h2>
           <Link href="https://x.com/musklescoin" target="_blank"> 
-            <Image src={coin} alt="" className="md:w-0 w-32" />
+            <Image src={coin} alt="" className="md:w-[296px] w-32" />
           </Link>
         </div>
       </Container>

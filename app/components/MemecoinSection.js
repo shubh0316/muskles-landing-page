@@ -20,7 +20,7 @@ export default function MemecoinSection() {
               <Image src={dex} alt="" />
             </div>
             <div>
-              <Image src={right} alt="" className="md:w-0 w-[200px]" />
+              <Image src={right} alt="" className="md:w-[305px] w-[200px]" />
             </div>
           </div>
         </div>
