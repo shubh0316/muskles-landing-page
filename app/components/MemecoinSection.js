@@ -2,7 +2,7 @@ import Image from "next/image";
 import dex from "@/assets/dex.svg";
 import right from "@/assets/right.svg";
 import Container from "@/app/components/Container";
-
+import Link from "next/link";
 export default function MemecoinSection() {
   return (
     <>  
@@ -17,7 +17,9 @@ export default function MemecoinSection() {
               <h2 className="text-start text-4xl md:text-5xl">NO LOCKUPS.</h2>
               <h2 className="text-start text-4xl md:text-5xl">NO CABAL.</h2>
               <h2 className="text-start text-4xl md:text-5xl">NO KOL.</h2>
+              <Link href="https://dexscreener.com/solana/6ijc37nbfaxfnhcty98rjfj8aq48w5ic35ag59ihmoon" target="__blank">    
               <Image src={dex} alt="" />
+              </Link>
             </div>
             <div>
               <Image src={right} alt="" className="md:w-[305px] w-[200px]" />

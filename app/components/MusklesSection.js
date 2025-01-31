@@ -10,9 +10,8 @@ export default function MusklesSection() {
         <div></div>
         <div className="flex justify-end">
             <Image src={logo} alt="" />
+           
         </div>
-      
-
       </div>
     </div>
     </>
